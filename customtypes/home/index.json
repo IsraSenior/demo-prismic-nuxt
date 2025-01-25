@@ -10,11 +10,7 @@
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
-          "choices": {
-            "hero": {
-              "type": "SharedSlice"
-            }
-          }
+          "choices": {}
         }
       }
     },
@@ -43,35 +39,6 @@
           "thumbnails": []
         },
         "type": "Image"
-      }
-    },
-    "Test Tab": {
-      "hello_new_tab": {
-        "type": "Text",
-        "config": {
-          "label": "Hello new tab",
-          "placeholder": ""
-        }
-      },
-      "posts": {
-        "type": "Link",
-        "config": {
-          "label": "Posts",
-          "select": "document",
-          "repeat": false,
-          "customtypes": ["posts"]
-        }
-      },
-      "slices2": {
-        "type": "Slices",
-        "fieldset": "Slice Zone",
-        "config": {
-          "choices": {
-            "alternate_grid": {
-              "type": "SharedSlice"
-            }
-          }
-        }
       }
     }
   }
